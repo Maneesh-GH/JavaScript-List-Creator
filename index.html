@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript To-Do List</title>
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+  <body>
+    <main>
+      <section class="form">
+          <input autocomplete="off" id="listInput" type="text" name="listItem" placeholder="Type to insert item">
+          <button onclick="addList()" type="button" name="button">&gt;</button>
+      </section>
+      <section id="listContainer" class="list">
+      </section>
+      <section onclick="clearList()" class="clearList" align="center">
+        <h3>Clear List</h3>
+      </section>
+    </main>
+  </body>
+  <script src="./assets/main.js" charset="utf-8"></script>
+</html>

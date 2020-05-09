@@ -1,0 +1,17 @@
+*,html,body{margin: 0;padding: 0;}
+body{height: 100vh;overflow: hidden;background: #222222;}
+main{margin: auto;width: 70vh;}
+/* CSS For Input Field and Form Container */
+.form{background: #ffffff;padding: 10px;border-radius: 5px;margin-top: 20px;}
+.form input{padding: 10px;outline: none;width: 85%;margin: 0px;}
+button{padding: 10px;cursor: pointer;}
+/* CSS for List and List Container */
+.list::-webkit-scrollbar{width: 10px;background: #888888;}
+.list::-webkit-scrollbar-thumb{width: 10px;background: #cccccc;}
+.list::-webkit-scrollbar-thumb:hover{width: 10px;background: #555555;}
+.list{margin-top: 20px;background:#ffffff; padding: 10px;border-radius: 5px;height: 40vh;overflow-y: scroll;overflow-x: hidden;}
+li{list-style: none;background: #cccccc;padding: 10px;width: 95%;margin-top: 5px;}
+/* Clear List Section */
+.clearList{cursor: pointer;background: #ffffff;padding: 10px;border-radius: 0px 5px 5px 5px;}
+.cross{margin-right: 5px;border: 2px solid #ff1e1e;outline: none;background: #ff1e1e;color: #ffffff;}
+.done{margin-right: 5px;border: 2px solid #02f770;outline: none;color: #ffffff;background: #02f770;}
